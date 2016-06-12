@@ -1,6 +1,10 @@
 language: scala
 sudo: required
 
+env:
+  - TRAVIS_NODE_VERSION="6.2.1"
+  - TRAVIS_NODE_VERSION="4"
+  
 scala:
   - 2.11.7
 
