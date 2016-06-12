@@ -1,0 +1,1 @@
+# scalajs-node-activator-seed

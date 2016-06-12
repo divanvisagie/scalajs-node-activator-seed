@@ -1,3 +1,4 @@
+scalaJSUseRhino in Global := false
 enablePlugins(ScalaJSPlugin)
 
 name := "Scala.js Tutorial"
