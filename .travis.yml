@@ -1,0 +1,16 @@
+language: scala
+sudo: required
+
+scala:
+  - 2.11.7
+
+jdk:
+  - oraclejdk8
+  
+before_script:
+  - curl -L -o coursier https://git.io/vgvpD && chmod +x coursier
+
+script: 
+  - sbt test
+  - sbt run
+  
