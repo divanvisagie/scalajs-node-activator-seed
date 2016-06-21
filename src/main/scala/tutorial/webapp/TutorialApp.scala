@@ -5,12 +5,10 @@ import scala.scalajs.js
 import js.DynamicImplicits._
 import js.Dynamic.{global => g}
 
-val console = g.require("better-console")
-
 object TutorialApp extends JSApp {
-
+  val console = g.require("better-console")
+  
   def main(): Unit = {
-
     console.error("oops")
     println("Hello world!")
   }
